@@ -11,12 +11,15 @@ class PSTabbarItem: NSObject {
     let selectImage: UIImage?
     let title: String?
     let normalImage: UIImage?
-    let highlightEnable: Bool?
-    init(title t:String?, normalImage n:UIImage?, selectImage s: UIImage?, highlightEnable h:Bool?) {
+    var highlightEnable: Bool = true
+    var itemWith = 80
+    var itemHeight = 80
+    var normalBgColor:UIColor?
+    var selectBgColor:UIColor?
+    init(title t:String?, normalImage n:UIImage?, selectImage s: UIImage?) {
         selectImage = s
         normalImage = n
         title = t
-        highlightEnable = h
         super.init()
     }
 }

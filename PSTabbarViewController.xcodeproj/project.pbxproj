@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D0BBD311F0CDB3300A9729B /* PSTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BBD301F0CDB3300A9729B /* PSTabbarViewController.swift */; };
-		0D0BBD331F0CDB7D00A9729B /* PSTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BBD321F0CDB7D00A9729B /* PSTabbarItem.swift */; };
 		0DD71FAB1F0DE3600078063F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD71FA31F0DE3600078063F /* AppDelegate.swift */; };
 		0DD71FAC1F0DE3600078063F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD71FA41F0DE3600078063F /* Assets.xcassets */; };
 		0DD71FAD1F0DE3600078063F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD71FA51F0DE3600078063F /* LaunchScreen.storyboard */; };
 		0DD71FAE1F0DE3600078063F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD71FA71F0DE3600078063F /* Main.storyboard */; };
 		0DD71FAF1F0DE3600078063F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DD71FA91F0DE3600078063F /* Info.plist */; };
 		0DD71FB01F0DE3600078063F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD71FAA1F0DE3600078063F /* ViewController.swift */; };
+		0DD71FB41F0E57EC0078063F /* PSTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD71FB21F0E57EC0078063F /* PSTabbarItem.swift */; };
+		0DD71FB51F0E57EC0078063F /* PSTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD71FB31F0E57EC0078063F /* PSTabbarViewController.swift */; };
 		4026D343BDCF88DA72091E9E /* Pods_PSTabbarViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865BF6ECE1B5C64A1A6F91AE /* Pods_PSTabbarViewController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D00CA1E1F0CDA2D0004C39D /* PSTabbarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSTabbarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D0BBD301F0CDB3300A9729B /* PSTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSTabbarViewController.swift; sourceTree = "<group>"; };
-		0D0BBD321F0CDB7D00A9729B /* PSTabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSTabbarItem.swift; sourceTree = "<group>"; };
 		0DD71FA31F0DE3600078063F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DD71FA41F0DE3600078063F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD71FA61F0DE3600078063F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD71FA81F0DE3600078063F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DD71FA91F0DE3600078063F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DD71FAA1F0DE3600078063F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DD71FB21F0E57EC0078063F /* PSTabbarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSTabbarItem.swift; sourceTree = "<group>"; };
+		0DD71FB31F0E57EC0078063F /* PSTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSTabbarViewController.swift; sourceTree = "<group>"; };
 		1790844FC9E2F18383D628B5 /* Pods-PSTabbarViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTabbarViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSTabbarViewController/Pods-PSTabbarViewController.release.xcconfig"; sourceTree = "<group>"; };
 		29A6580D90315EBBD51756D7 /* Pods-PSTabbarViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSTabbarViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSTabbarViewController/Pods-PSTabbarViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		865BF6ECE1B5C64A1A6F91AE /* Pods_PSTabbarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSTabbarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,8 +57,8 @@
 		0D00CA151F0CDA2D0004C39D = {
 			isa = PBXGroup;
 			children = (
+				0DD71FB11F0E57EC0078063F /* PSTabbarViewController */,
 				0DD71FA21F0DE3600078063F /* PSTabbarViewControllerDemo */,
-				0D0BBD2F1F0CDAC300A9729B /* PSTabbarViewController  */,
 				0D00CA1F1F0CDA2D0004C39D /* Products */,
 				086FA88429C3993350B02F5A /* Pods */,
 				985D4D974566FB5FA5C6568C /* Frameworks */,
@@ -73,15 +73,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D0BBD2F1F0CDAC300A9729B /* PSTabbarViewController  */ = {
-			isa = PBXGroup;
-			children = (
-				0D0BBD301F0CDB3300A9729B /* PSTabbarViewController.swift */,
-				0D0BBD321F0CDB7D00A9729B /* PSTabbarItem.swift */,
-			);
-			path = "PSTabbarViewController ";
-			sourceTree = "<group>";
-		};
 		0DD71FA21F0DE3600078063F /* PSTabbarViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +84,15 @@
 				0DD71FAA1F0DE3600078063F /* ViewController.swift */,
 			);
 			path = PSTabbarViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		0DD71FB11F0E57EC0078063F /* PSTabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DD71FB21F0E57EC0078063F /* PSTabbarItem.swift */,
+				0DD71FB31F0E57EC0078063F /* PSTabbarViewController.swift */,
+			);
+			path = PSTabbarViewController;
 			sourceTree = "<group>";
 		};
 		985D4D974566FB5FA5C6568C /* Frameworks */ = {
@@ -228,10 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD71FB41F0E57EC0078063F /* PSTabbarItem.swift in Sources */,
+				0DD71FB51F0E57EC0078063F /* PSTabbarViewController.swift in Sources */,
 				0DD71FAB1F0DE3600078063F /* AppDelegate.swift in Sources */,
-				0D0BBD311F0CDB3300A9729B /* PSTabbarViewController.swift in Sources */,
 				0DD71FB01F0DE3600078063F /* ViewController.swift in Sources */,
-				0D0BBD331F0CDB7D00A9729B /* PSTabbarItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

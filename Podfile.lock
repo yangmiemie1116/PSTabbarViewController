@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: c5a2b7b1f77e5a83e2844b7cb3f2ab605a12236d
+PODS:
+  - PSTabbarViewController (0.0.1):
+    - SnapKit
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - PSTabbarViewController (from `./`)
+  - SnapKit
+
+EXTERNAL SOURCES:
+  PSTabbarViewController:
+    :path: ./
+
+SPEC CHECKSUMS:
+  PSTabbarViewController: 4daa84979573ab35e366145d16a21c765df3e5bd
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 154e00674e6ab156dafb1d21e0b828986fcf1183
 
 COCOAPODS: 1.2.1.beta.1
